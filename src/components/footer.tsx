@@ -1,6 +1,7 @@
 import React from "react";
 import { companyData, marketingInfo } from "../contracts/company";
 import MediaIcons from "./mediaIcons";
+import Image from "next/image";
 
 // TODO: Clarify icon for company: Simple "K"? Make SVG to import.
 // TODO: Kookajoo logotype to SVG.
@@ -20,9 +21,9 @@ const Footer: any = (props: FooterProps) => {
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href={`https://${home}`} className="flex items-center mb-4 sm:mb-0">
           <img
-            src={`https://${home}/docs/images/logo.svg`}
-            className="mr-3 h-8"
+            src={`https://${home}/public/favicon.png`}
             alt={`${companyName} Logo`}
+            className="mr-3 h-8"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             {companyName}
@@ -40,11 +41,6 @@ const Footer: any = (props: FooterProps) => {
             </a>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 ">
-              Licensing
-            </a>
-          </li>
-          <li>
             <a href="#" className="hover:underline">
               Contact
             </a>
@@ -54,11 +50,11 @@ const Footer: any = (props: FooterProps) => {
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2022{" "}
+          © 2021-2022{" "}
           <a href={`https://${home}`} className="hover:underline">
             {companyName}™
           </a>
-          . All Rights Reserved.
+        All Rights Reserved.
         </span>
         <MediaIcons />
       </div>
