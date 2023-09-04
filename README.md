@@ -1,6 +1,13 @@
 # Studio Kookajoo website
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with
+[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Installation
+
+- `npx create-next-app@latest kookajoo --typescript`
+- `npm install -D tailwindcss postcss autoprefixer`
+- `yarn install`
 
 ## Start-up notes
 
@@ -14,4 +21,4 @@ pnpm dev
 
 ## Coding
 
-We're using DaisyUI on top of Tailwind. See walkthroughs there.
+We're using [DaisyUI](https://daisyui.com/components) on top of Tailwind. See walkthroughs there.
