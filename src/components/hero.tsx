@@ -1,16 +1,29 @@
-// TODO: Make background stretch to height.
-
 const Hero: any = () => {
   return (
-    <section className="dark:bg-gray-800 dark:text-gray-100">
-      <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
-        <h1 className="text-4xl font-bold leading-none sm:text-5xl">
-          Studio <span className="dark:text-orange-400">Kookajoo</span>
-        </h1>
-        <p className="px-8 mt-8 mb-12 text-lg">A little note.</p>
-        <div className="flex flex-wrap justify-center"></div>
+    <div
+      className="hero min-h-screen"
+      style={{
+        backgroundImage:
+          "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+      }}
+    >
+      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-content text-center text-neutral-content">
+        <div className="max-w-md">
+          <h1 className="mb-5 text-5xl font-bold">
+            Welcome to
+            <br />
+            Studio Kookajoo!
+          </h1>
+          <p className="mb-5">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
+            a id nisi.
+          </p>
+          <button className="btn btn-primary">Get Started</button>
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

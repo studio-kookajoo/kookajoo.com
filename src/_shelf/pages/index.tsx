@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from "../components/footer";
-import Hero from "../components/hero";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 import { companyData, marketingInfo } from "../contracts/company";
 
 const Home: any = () => {
