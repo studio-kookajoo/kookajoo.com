@@ -4,8 +4,10 @@ import Hero from "@/components/hero";
 export default function Page() {
   return (
     <>
-      <Hero />
-      <Footer />
+      <div className="flex flex-col h-screen">
+        <Hero />
+        <Footer />
+      </div>
     </>
   );
 }
