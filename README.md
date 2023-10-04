@@ -9,6 +9,7 @@ We're using [pnpm](https://pnpm.io/cli/add) for package management, so be sure t
 
 - `npx create-next-app@latest kookajoo --typescript`
 - `npm install -D tailwindcss postcss autoprefixer`
+- `curl -fsSL https://get.pnpm.io/install.sh | sh -`
 - `pnpm install`
 
 ## Start-up notes
