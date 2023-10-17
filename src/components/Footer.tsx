@@ -39,7 +39,7 @@ const Footer: any = () => {
         </div>
       </nav>
       <aside>
-        <p>© 2010 - 2023 Studio Kookajoo</p>
+        <p>© 2010-2023 Studio Kookajoo</p>
       </aside>
     </footer>
   );

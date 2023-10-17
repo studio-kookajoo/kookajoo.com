@@ -1,8 +1,14 @@
 import Image from "next/image";
 
-const Hero: any = () => {
+type Props = {
+    backgroundColor: string;
+};
+
+const Hero: any = (props: Props) => {
   return (
-    <div className="hero h-5/6 bg-base-200">
+    // <div className="hero h-5/6 bg-base-200">
+    <div className={`hero h-5/6 bg-${props.backgroundColor}`}>
+    {/* <div className={`hero h-5/6 bg-royalty`}> */}
       <div className="hero-content text-center">
         <div className="max-w-2xl">
           {/* <img
