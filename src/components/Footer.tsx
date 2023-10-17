@@ -39,9 +39,10 @@ const Footer: any = () => {
         </div>
       </nav>
       <aside>
-        <p>© 2010-2023 Studio Kookajoo</p>
+        <p>© 2010-{new Date().getFullYear()} Studio Kookajoo</p>
       </aside>
     </footer>
   );
 };
+
 export default Footer;
