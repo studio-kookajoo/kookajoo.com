@@ -39,7 +39,7 @@ const Footer: any = () => {
         </div>
       </nav>
       <aside>
-        <p>© 2010-{new Date().getFullYear()} Studio Kookajoo</p>
+        <p>© 2019-{new Date().getFullYear()} Studio Kookajoo</p>
       </aside>
     </footer>
   );
