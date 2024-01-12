@@ -1,11 +1,11 @@
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
+import Footer from "@/components/layout/Footer";
+import Hero from "@/components/layout/Hero";
 
 export default function Page() {
   return (
     <>
       <div className="flex flex-col h-screen">
-        <Hero backgroundColor="royalty"/>
+        <Hero backgroundColor="royalty" />
         <Footer />
       </div>
     </>
