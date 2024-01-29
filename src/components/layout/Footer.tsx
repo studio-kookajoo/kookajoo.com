@@ -1,7 +1,8 @@
-import FacebookIcon from "../icons/FacebookIcon";
-import GitHubIcon from "../icons/GitHubIcon";
-import TwitterXIcon from "../icons/TwitterXIcon";
-import YouTubeIcon from "../icons/YouTubeIcon";
+import Image from "next/image";
+import facebookIcon from "/public/facebook-icon.svg";
+import gitHubIcon from "/public/github-icon.svg";
+import twitterXIcon from "/public/twitterx-icon.svg";
+import youTubeIcon from "/public/youtube-icon.svg";
 
 // TODO: Resize icons reactively?
 
@@ -11,21 +12,21 @@ const Footer: any = () => {
       <nav>
         <div className="grid grid-flow-col gap-4">
           <a>
-            <YouTubeIcon />
+            <Image src={youTubeIcon} alt="YouTube icon" />
           </a>
           <a>
-            <TwitterXIcon />
+            <Image src={facebookIcon} alt="Facebook icon" />
           </a>
           <a>
-            <FacebookIcon />
+            <Image src={twitterXIcon} alt="TwitterX icon" />
           </a>
           <a>
-            <GitHubIcon />
+            <Image src={gitHubIcon} alt="GitHub icon" />
           </a>
         </div>
       </nav>
       <aside>
-        <p>© 2019-{new Date().getFullYear()} Studio Kookajoo</p>
+        <p>© 2019-2024 Studio Kookajoo</p>
       </aside>
     </footer>
   );

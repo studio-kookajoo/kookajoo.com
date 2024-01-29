@@ -8,7 +8,7 @@ const TwitterXIcon: any = () => {
     >
       <g
         fill="#fffefe"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         stroke="none"
         stroke-width="1"
         stroke-linecap="butt"

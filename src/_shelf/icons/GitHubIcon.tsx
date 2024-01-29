@@ -9,7 +9,7 @@ const GitHubIcon: any = () => {
       <g
         fill-opacity="0"
         fill="#ffffff"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         stroke="none"
         stroke-width="1"
         stroke-linecap="butt"
@@ -26,7 +26,7 @@ const GitHubIcon: any = () => {
       </g>
       <g
         fill="#fffefe"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         stroke="none"
         stroke-width="1"
         stroke-linecap="butt"
