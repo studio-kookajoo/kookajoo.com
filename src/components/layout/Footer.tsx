@@ -3,6 +3,7 @@ import facebookIcon from "/public/facebook-icon.svg";
 import gitHubIcon from "/public/github-icon.svg";
 import twitterXIcon from "/public/twitterx-icon.svg";
 import youTubeIcon from "/public/youtube-icon.svg";
+import mastodonIcon from "/public/mastodon-icon.svg"
 
 // TODO: Resize icons reactively?
 
@@ -15,10 +16,13 @@ const Footer: any = () => {
             <Image src={youTubeIcon} alt="YouTube icon" />
           </a>
           <a>
-            <Image src={facebookIcon} alt="Facebook icon" />
+            <Image src={twitterXIcon} alt="TwitterX icon" />
           </a>
           <a>
-            <Image src={twitterXIcon} alt="TwitterX icon" />
+            <Image src={mastodonIcon} alt="Mastodon icon" />
+          </a>
+          <a>
+            <Image src={facebookIcon} alt="Facebook icon" />
           </a>
           <a>
             <Image src={gitHubIcon} alt="GitHub icon" />
