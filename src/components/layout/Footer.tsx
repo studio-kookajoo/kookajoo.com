@@ -19,7 +19,11 @@ const Footer: any = () => {
           >
             <Image src={youTubeIcon} alt="YouTube icon" />
           </a>
-          <a>
+          <a
+            href="https://twitter.com/kookajoo"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <Image src={twitterXIcon} alt="TwitterX icon" />
           </a>
           <a
@@ -29,10 +33,14 @@ const Footer: any = () => {
           >
             <Image src={mastodonIcon} alt="Mastodon icon" />
           </a>
-          <a>
+          {/* <a>
             <Image src={facebookIcon} alt="Facebook icon" />
-          </a>
-          <a>
+          </a> */}
+          <a
+            href="https://github.com/studio-kookajoo"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <Image src={gitHubIcon} alt="GitHub icon" />
           </a>
         </div>
