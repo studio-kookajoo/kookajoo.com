@@ -1,9 +1,10 @@
 import Image from "next/image";
 import facebookIcon from "/public/facebook-icon.svg";
 import gitHubIcon from "/public/github-icon.svg";
+import instagramIcon from "/public/instagram-icon.svg";
+import mastodonIcon from "/public/mastodon-icon.svg";
 import twitterXIcon from "/public/twitterx-icon.svg";
 import youTubeIcon from "/public/youtube-icon.svg";
-import mastodonIcon from "/public/mastodon-icon.svg";
 
 // TODO: Resize icons reactively?
 
@@ -32,6 +33,13 @@ const Footer: any = () => {
             rel="noreferrer noopener"
           >
             <Image src={mastodonIcon} alt="Mastodon icon" />
+          </a>
+          <a
+            href="https://www.instagram.com/studiokookajoo/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Image src={instagramIcon} alt="Instagram icon" />
           </a>
           {/* <a>
             <Image src={facebookIcon} alt="Facebook icon" />

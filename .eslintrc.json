@@ -1,3 +1,68 @@
 {
-  "extends": "next/core-web-vitals"
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "next/core-web-vitals",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:prettier/react",
+        "plugin:prettier/@typescript-eslint"
+    ],
+    "plugins": [
+        "@typescript-eslint",
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "sort-imports": [
+            "error",
+            {
+                "ignoreCase": true,
+                "ignoreDeclarationSort": true
+            }
+        ],
+        "import/order": [
+            1,
+            {
+                "groups": [
+                    "external",
+                    "builtin",
+                    "internal",
+                    "sibling",
+                    "parent",
+                    "index"
+                ],
+                "pathGroups": [
+                    {
+                        "pattern": "components",
+                        "group": "internal"
+                    },
+                    {
+                        "pattern": "common",
+                        "group": "internal"
+                    },
+                    {
+                        "pattern": "routes/ **",
+                        "group": "internal"
+                    },
+                    {
+                        "pattern": "assets/**",
+                        "group": "internal",
+                        "position": "after"
+                    }
+                ],
+                "pathGroupsExcludedImportTypes": [
+                    "internal"
+                ],
+                "alphabetize": {
+                    "order": "asc",
+                    "caseInsensitive": true
+                }
+            }
+        ],
+        "globals": {
+            "React": "writable"
+        }
+    }
 }
