@@ -1,5 +1,4 @@
 import Image from "next/image";
-import facebookIcon from "/public/facebook-icon.svg";
 import gitHubIcon from "/public/github-icon.svg";
 import instagramIcon from "/public/instagram-icon.svg";
 import mastodonIcon from "/public/mastodon-icon.svg";
@@ -41,9 +40,6 @@ const Footer: any = () => {
           >
             <Image src={instagramIcon} alt="Instagram icon" />
           </a>
-          {/* <a>
-            <Image src={facebookIcon} alt="Facebook icon" />
-          </a> */}
           <a
             href="https://github.com/studio-kookajoo"
             target="_blank"
