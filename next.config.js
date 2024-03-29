@@ -2,10 +2,10 @@
 const nextConfig = {
   output: "export",
   reactStrictMode: true,
-  images: {
-    loader: "akamai",
-    path: "",
-  },
+  //   images: {
+  //     loader: "akamai",
+  //     path: "",
+  //   },
   // assetPrefix: './',
   distDir: "docs",
 };
