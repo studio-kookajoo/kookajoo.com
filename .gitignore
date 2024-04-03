@@ -1,36 +1,38 @@
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# dependencies
-/node_modules
+# Dependencies
+node_modules/
+public/
 /.pnp
 .pnp.js
 
-# dev
+# Dev
 **/vscode
 
-# local env files
-.env*.local
-
-# misc
+# Env
 .DS_Store
-*.pem
 
-# next.js
-/.next/
-/out/
 
-# production
-/build
+# # debug
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
 
-# testing
-/coverage
+# # local env files
+# .env*.local
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# # misc
+# .DS_Store
+# *.pem
 
-# vercel
-.vercel
+# # next.js
+# /.next/
+# /out/
+
+# # production
+# /build
+
+# # testing
+# /coverage
+
+# # typescript
+# *.tsbuildinfo
+# next-env.d.ts

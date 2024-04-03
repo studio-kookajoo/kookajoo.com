@@ -2,22 +2,28 @@
 
 ## Installation
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Zola](https://www.getzola.org/) project.
 
 We're using [pnpm](https://pnpm.io/cli/add) for package management, so be sure to prefix everything accordingly.
 
-- `npx create-next-app@latest kookajoo --typescript`
-- `npm install -D tailwindcss postcss autoprefixer`
-- `curl -fsSL https://get.pnpm.io/install.sh | sh -`
-- `pnpm install`
-
 ## Start-up notes
 
-To run the dev server:
+Install all:
 
 ```bash
-pnpm dev
+pnpm install
+```
+
+Run the dev server:
+
+```bash
+pnpm run serve
+```
+
+Build output in `./public`
+
+```bash
+pnpm run build
 ```
 
 ## Coding

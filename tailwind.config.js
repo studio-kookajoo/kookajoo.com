@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./templates/**/*.html",
+    "./static/**/*.{html,js}",
+    "./content/**/*.md",
   ],
   theme: {
     colors: {
@@ -80,6 +80,11 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    backgroundImage: {
+      "beams-dark": 'url("/beams.webp"), linear-gradient(#0D172B, #12213F)',
+      "beams-light": 'url("/beams.webp"), linear-gradient(#CDFFF9, #FFDCDF)',
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
+
