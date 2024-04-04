@@ -1,31 +1,27 @@
-# Studio Kookajoo website
+# Studio Kookajoo site (kookajoo.com)
 
-## Installation
+This project is a GitHub template for creating web projects that use the [Zola](https://getzola.org) static site generator, in conjunction with [Tailwindcss](https://tailwindcss.com). The [project's website](https://zola-tailwind.spenc.es) is also built from the same repository.
 
-This is a [Zola](https://www.getzola.org/) project.
+Below are some details that will help you get started.
 
-We're using [pnpm](https://pnpm.io/cli/add) for package management, so be sure to prefix everything accordingly.
+## Usage
 
-## Start-up notes
+Start by visiting the [project's GitHub repository](https://github.com/asimpletune/zola-tailwindcss), and then click use the template and "create a new repository".
 
-Install all:
+![Create a new repository](https://zola-tailwind.spenc.es/screenshot.png)
 
-```bash
-pnpm install
+Here's how you do stuff:
+
+```zsh
+# installs everything
+# that you need
+npm install
+
+# build builds once,
+# output in `./public`
+npm run build
+
+# starts a local server
+# that watches/rebuilds
+npm run serve
 ```
-
-Run the dev server:
-
-```bash
-pnpm run serve
-```
-
-Build output in `./public`
-
-```bash
-pnpm run build
-```
-
-## Coding
-
-We're using [DaisyUI](https://daisyui.com/components) on top of Tailwind. See walkthroughs there.

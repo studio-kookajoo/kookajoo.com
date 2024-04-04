@@ -1,10 +1,10 @@
 # The URL the site will be built for
 # The base URL of the site; the only required configuration variable.
-base_url = "kookajoo.com"
+base_url = "example.com"
 
 # The site title and description; used in feeds by default.
-title = "Studio Kookajoo"
-description = ""
+title = "🪩 Zola + Tailwind CSS: because they deserve to be together 💅"
+description = "A GitHub template for making projects with the Zola static site generator + Tailwind CSS: 🪜 + 🎨"
 
 # The default language; used in feeds.
 default_language = "en"
@@ -176,3 +176,7 @@ index_format = "elasticlunr_javascript"
 #
 [extra]
 project_gh = "https://github.com/asimpletune/zola-tailwindcss"
+
+[extra.author]
+name = "Spence"
+website = "https://spenc.es"

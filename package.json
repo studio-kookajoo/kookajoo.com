@@ -1,7 +1,4 @@
 {
-  "name": "kookajoo.com",
-  "version": "0.1.0",
-  "author": "Studio Kookajoo",
   "scripts": {
     "build": "zola build $BUILD_OPTS && npx tailwindcss -i ./public/input.css -o ./public/style.css -m",
     "serve": "zola serve $SERVE_OPTS --interface 0.0.0.0 & npx tailwindcss -i ./public/input.css -o ./public/style.css --watch && wait",
@@ -9,7 +6,6 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
-    "daisyui": "^4.9.0",
     "tailwindcss": "^3.4.1"
   }
 }
