@@ -15,13 +15,13 @@ Here's how you do stuff:
 ```zsh
 # installs everything
 # that you need
-npm install
+pnpm install
 
 # build builds once,
 # output in `./public`
-npm run build
+pnpm run build
 
 # starts a local server
 # that watches/rebuilds
-npm run serve
+pnpm run serve
 ```
