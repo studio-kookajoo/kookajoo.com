@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const repo = "kookajoo.com";
-const assetPrefix = `/${repo}/`;
+const assetPrefix = `/${repo}`;
 const basePath = `/${repo}`;
 
 const nextConfig = {
