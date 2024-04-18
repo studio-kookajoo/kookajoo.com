@@ -6,8 +6,8 @@ const basePath = `/${repo}`;
 
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+//   assetPrefix: assetPrefix,
+//   basePath: basePath,
   output: "export",
   distDir: "docs",
 };
