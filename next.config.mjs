@@ -6,10 +6,10 @@ const basePath = `/${repo}`;
 
 const nextConfig = {
     reactStrictMode: true,
-    // assetPrefix: assetPrefix,
-    // basePath: basePath,
-    // output: "export",
-    // distDir: "docs",
+    assetPrefix: assetPrefix,
+    basePath: basePath,
+    output: "export",
+    distDir: "docs",
 };
 
 export default nextConfig;
