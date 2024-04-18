@@ -2,11 +2,11 @@ import React from "react";
 
 import Image from "next/image";
 
-import gitHubIcon from "/public/github-icon.svg";
-import instagramIcon from "/public/instagram-icon.svg";
-import mastodonIcon from "/public/mastodon-icon.svg";
-import twitterXIcon from "/public/twitterx-icon.svg";
-import youTubeIcon from "/public/youtube-icon.svg";
+import gitHubIcon from "/github-icon.svg";
+import instagramIcon from "/instagram-icon.svg";
+import mastodonIcon from "/mastodon-icon.svg";
+import twitterXIcon from "/twitterx-icon.svg";
+import youTubeIcon from "/youtube-icon.svg";
 
 // TODO: Resize icons reactively?
 
