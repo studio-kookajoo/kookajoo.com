@@ -8,9 +8,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with
 We're using [pnpm](https://pnpm.io/cli/add) for package management, so be sure to prefix everything accordingly.
 
 - `pnpm install`
-- `pnpx create-next-app@latest kookajoo.com` 
+- `pnpx create-next-app@latest kookajoo.com`
 (- `npx create-next-app@latest kookajoo --typescript`)
-- `npm install -D tailwindcss postcss autoprefixer`
+- `pnpm install -D tailwindcss postcss autoprefixer`
 
 ## Start-up notes
 
