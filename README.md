@@ -26,4 +26,4 @@ We're using [DaisyUI](https://daisyui.com/components) on top of Tailwind. See wa
 
 ## Deployment
 
-Currently trying out AWS Amplify. Oh, yes.
+Currently trying out AWS Amplify.
