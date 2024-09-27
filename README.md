@@ -8,7 +8,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with
 We're using [pnpm](https://pnpm.io/cli/add) for package management, so be sure to prefix everything accordingly.
 
 - `pnpm install`
-- `pnpx create-next-app@latest kookajoo.com` 
+- `pnpx create-next-app@latest kookajoo.com`
 (- `npx create-next-app@latest kookajoo --typescript`)
 - `npm install -D tailwindcss postcss autoprefixer`
 
@@ -23,3 +23,7 @@ pnpm dev
 ## Coding
 
 We're using [DaisyUI](https://daisyui.com/components) on top of Tailwind. See walkthroughs there.
+
+## Deployment
+
+Currently trying out AWS Amplify.
