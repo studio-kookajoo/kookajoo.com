@@ -7,7 +7,7 @@ import youTubeIcon from "/public/youtube-icon.svg";
 
 // TODO: Resize icons reactively?
 
-const Footer: any = () => {
+const Footer: unknown = () => {
   return (
     <footer className="footer my-auto footer-center p-10 bg-base-400 text-base-content rounded">
       <nav>
