@@ -9,8 +9,10 @@ We're using [pnpm](https://pnpm.io/cli/add) for package management, so be sure t
 
 - `pnpm install`
 - `pnpx create-next-app@latest kookajoo.com`
-(- `npx create-next-app@latest kookajoo --typescript`)
+  (- `npx create-next-app@latest kookajoo --typescript`)
 - `pnpm install -D tailwindcss postcss autoprefixer`
+
+Also create project-local `.npmrc` file per [this AWS link](https://docs.aws.amazon.com/amplify/latest/userguide/monorepo-configuration.html#turborepo-pnpm-monorepo-configuration).
 
 ## Start-up notes
 
@@ -26,4 +28,4 @@ We're using [DaisyUI](https://daisyui.com/components) on top of Tailwind. See wa
 
 ## Deployment
 
-Currently testing AWS Amplify. Still.
+Currently testing AWS Amplify.
