@@ -4,10 +4,11 @@ import instagramIcon from "/public/instagram-icon.svg";
 import mastodonIcon from "/public/mastodon-icon.svg";
 import twitterXIcon from "/public/twitterx-icon.svg";
 import youTubeIcon from "/public/youtube-icon.svg";
+import { NextComponentType } from "next";
 
 // TODO: Resize icons reactively?
 
-const Footer: unknown = () => {
+const Footer: NextComponentType = () => {
   return (
     <footer className="footer my-auto footer-center p-10 bg-base-400 text-base-content rounded">
       <nav>
