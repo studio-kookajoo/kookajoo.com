@@ -10,7 +10,7 @@ We're using [pnpm](https://pnpm.io/cli/add) for package management, so be sure t
 - `pnpm install`
 - `pnpx create-next-app@latest kookajoo.com`
 (- `npx create-next-app@latest kookajoo --typescript`)
-- `npm install -D tailwindcss postcss autoprefixer`
+- `pnpm install -D tailwindcss postcss autoprefixer`
 
 ## Start-up notes
 
