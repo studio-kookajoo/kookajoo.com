@@ -19,7 +19,7 @@ We're using [DaisyUI](https://daisyui.com/components) on top of Tailwind:
 - `pnpm add -D daisyui@latest`
 - Add to `tailwind.config.js`:
 
-  ```json
+  ```javascript
   module.exports = {
   //...
     plugins: [
